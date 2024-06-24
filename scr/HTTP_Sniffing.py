@@ -23,4 +23,10 @@ def packet_callback(packet):
                     print(f"ER0R: paketler ayrıştırılırken bir hata çıktı:( {e}")
 
 if __name__ == "__main__":
-    print
+    print("[*] HTTP Sniffer başlatılıyor...")
+    try:
+        sniff(filter="tcp port 80", prn=packet_callback, iface=interface, store=0)
+    except KeyboardInterrupt:
+        print("\n[-] Sniffer durduruldu.")
+    except Exception as e:
+        print(f"ER0R: Sniffer çalıştırılırken bir hata çıktı: {e}")
