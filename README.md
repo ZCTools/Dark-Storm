@@ -1,4 +1,4 @@
-# Dark-Storm:
+ok# Dark-Storm:
 Dark-Storm, bir kaç saldırıyı bir araya toplayıp, tek tek çalıştırabileceğiniz bir Framework'tür.
 Özellikleri şunlardır:
 1) DoS Saldırısı bulundurur.
@@ -24,6 +24,7 @@ ve DNS Dumpster
 2) cd Dark-Storm
 3) pip3 install -r requirements.txt
 4) python3 tool.py
+
 Kodun içinde çok fazla kütüphane olduğuna bakmayın bunların sadece 5 ya da 4 tanesi
 pip3 install komutu ile yüklenmeli
 lütfen eğitim ve test için kullanın. Kötüye kullandığınızda sorumluluk bana ait değildir.🙏🏻
