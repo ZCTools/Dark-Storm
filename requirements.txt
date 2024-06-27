@@ -1,0 +1,6 @@
+pynput
+beautifulsoup4
+scapy
+mitmproxy
+dnspython
+requests
